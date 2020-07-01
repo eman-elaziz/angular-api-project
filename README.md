@@ -1,6 +1,7 @@
 # AngularApi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
+## please install nmp before run application
 
 ## Development server
 
