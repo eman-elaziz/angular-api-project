@@ -1,0 +1,27 @@
+<section id="home">
+    <header class="fold">
+        <div class="layer d-flex justify-content-center align-items-center text-white">
+            <p id="typing" ><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+        </div>
+    </header>
+</section>
+<section>
+    <div class="container">
+        <div class="row py-5 my-5">
+            
+            <div class="col-md-3 " *ngFor="let x of mydata">
+                <div class="content py-3">
+                <div class="card">
+                    <img [src]="x.image_url" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">{{x.title}}</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-success">see ingredients</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</section>

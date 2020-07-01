@@ -1,0 +1,22 @@
+
+@font-face
+{
+    src: url(../../assets/static/DancingScript-Bold.ttf);
+    font-family: dancing;
+}
+header{
+    height: 100vh;
+    background-image: url(../../assets/images/1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.layer{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(21, 87, 36,.5);
+    font-family: dancing;
+    font-size: 10rem;
+} 
+.card img{
+    height: 200px;
+}
